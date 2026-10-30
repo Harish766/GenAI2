@@ -1,0 +1,17 @@
+{
+  "model": "llama",
+  "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+  "test_size": 200,
+  "bleu": 10.439460812328006,
+  "chrf": 33.33300671858401,
+  "training_seconds": null,
+  "inference_seconds_total": 136.43516115600016,
+  "inference_seconds_per_sentence": 0.6821758057800008,
+  "parameters": 1235814400,
+  "trainable_parameters": 1235814400,
+  "peak_cuda_memory_gb": 4.984643072,
+  "decoding": "greedy, maximum 64 new tokens",
+  "empty_translations": 0,
+  "changed_digit_sequences": 2,
+  "sources_with_digits": 4
+}

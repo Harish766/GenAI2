@@ -1,0 +1,35 @@
+{
+  "started_at_utc": "2026-10-29T13:46:16.307655+00:00",
+  "updated_at_utc": "2026-10-29T13:53:12.551259+00:00",
+  "seed": 42,
+  "requested_models": [
+    "mt5"
+  ],
+  "test_size": 200,
+  "split_sha256": {
+    "train": "c3d8e5b1a46fb9f8b4ee1befec8f42ddc73608d1908e4a06c9ca2ddc0a9e13e2",
+    "val": "0e78e8cafa1198e6a988da050e6c8155aa7b5603822a93cde0e289cebe881536",
+    "test": "8637ba500e2a1b7424a208993427fb431237a6c4f9ab28a2b80853a678f2c1b8"
+  },
+  "models": {
+    "basic": {
+      "status": "not_run",
+      "reason": "Not selected for this invocation."
+    },
+    "mt5": {
+      "status": "failed",
+      "reason": "ValueError: mT5 emitted a sentinel token despite suppression"
+    },
+    "llama": {
+      "status": "not_run",
+      "reason": "Not selected for this invocation."
+    },
+    "gemma": {
+      "status": "not_run",
+      "reason": "Not selected for this invocation."
+    }
+  },
+  "current_run_files": [
+    "results/REPORT.md"
+  ]
+}

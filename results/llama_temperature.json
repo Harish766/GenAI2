@@ -1,0 +1,74 @@
+[
+  {
+    "temperature": 0.2,
+    "bleu_on_8": 17.48942907264064,
+    "chrf_on_8": 40.12538947641908,
+    "test_size": 8,
+    "empty_outputs": 0,
+    "examples": [
+      {
+        "source": "Prudence was standing looking around the place; Marguerite, seated on the sofa, was meditating.",
+        "reference": "Prudence, debout, regardait les quelques curiosités de mon salon; Marguerite, assise sur le canapé, réfléchissait.",
+        "prediction": "Prudence était assise sur le canapé, regardant autour de la place. Marguerite, assise sur le sofa, méditait."
+      },
+      {
+        "source": "There was a band of brothers!",
+        "reference": "Quelle troupe fraternelle.",
+        "prediction": "Il y avait un groupe de frères."
+      },
+      {
+        "source": "Charles picked up the flowers, and freshening his eyes, red with tears, against them, smelt them delicately.",
+        "reference": "Charles prit les violettes, et, rafraîchissant dessus ses yeux tout rouges de larmes, il les humait délicatement. Elle les retira vite de sa main, et alla les porter dans un verre d’eau.",
+        "prediction": "Charles a pris les fleurs et a nettoyé ses yeux, rouges de larmes, contre elles, et a goûté-les délicatement."
+      }
+    ]
+  },
+  {
+    "temperature": 0.7,
+    "bleu_on_8": 14.521435311375418,
+    "chrf_on_8": 37.458156689828954,
+    "test_size": 8,
+    "empty_outputs": 0,
+    "examples": [
+      {
+        "source": "Prudence was standing looking around the place; Marguerite, seated on the sofa, was meditating.",
+        "reference": "Prudence, debout, regardait les quelques curiosités de mon salon; Marguerite, assise sur le canapé, réfléchissait.",
+        "prediction": "Prudence était assise sur le divan, regardant autour de l'endroit; Marguerite, assise sur le canapé, méditait."
+      },
+      {
+        "source": "There was a band of brothers!",
+        "reference": "Quelle troupe fraternelle.",
+        "prediction": "Il y avait un groupe de frères."
+      },
+      {
+        "source": "Charles picked up the flowers, and freshening his eyes, red with tears, against them, smelt them delicately.",
+        "reference": "Charles prit les violettes, et, rafraîchissant dessus ses yeux tout rouges de larmes, il les humait délicatement. Elle les retira vite de sa main, et alla les porter dans un verre d’eau.",
+        "prediction": "Charles a pris les fleurs, et a nettoyé ses yeux, rouges de larmes, contre elles, et a goûté-les doucement."
+      }
+    ]
+  },
+  {
+    "temperature": 1.0,
+    "bleu_on_8": 9.82900456216782,
+    "chrf_on_8": 31.556974680748866,
+    "test_size": 8,
+    "empty_outputs": 0,
+    "examples": [
+      {
+        "source": "Prudence was standing looking around the place; Marguerite, seated on the sofa, was meditating.",
+        "reference": "Prudence, debout, regardait les quelques curiosités de mon salon; Marguerite, assise sur le canapé, réfléchissait.",
+        "prediction": "Prudence était debout, regardant autour de la place; Marguerite, assise sur le divan, méditait."
+      },
+      {
+        "source": "There was a band of brothers!",
+        "reference": "Quelle troupe fraternelle.",
+        "prediction": "There was a band of brothers."
+      },
+      {
+        "source": "Charles picked up the flowers, and freshening his eyes, red with tears, against them, smelt them delicately.",
+        "reference": "Charles prit les violettes, et, rafraîchissant dessus ses yeux tout rouges de larmes, il les humait délicatement. Elle les retira vite de sa main, et alla les porter dans un verre d’eau.",
+        "prediction": "Charles a pris les fleurs, et a fait doucement éclater ses yeux, qui étaient remplis de larmes, contre elles, le savourant d'elles delicatement."
+      }
+    ]
+  }
+]

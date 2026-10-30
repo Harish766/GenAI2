@@ -1,0 +1,27 @@
+{
+  "source_archive_sha256": "4133dbe8929c3d28fc3e77133b536b721bb55424ce995e0f236398f57d52a72a",
+  "completed_models": [
+    "basic",
+    "llama",
+    "gemma"
+  ],
+  "failed_models": [
+    "mt5"
+  ],
+  "translation_rows_per_completed_model": 200,
+  "all_completed_models_have_identical_sources_and_references": true,
+  "reconstructed_test_csv_sha256_matches_archived_status": true,
+  "test_csv_sha256": "8637ba500e2a1b7424a208993427fb431237a6c4f9ab28a2b80853a678f2c1b8",
+  "metrics_numeric_ranges_and_timing_arithmetic_checked": true,
+  "digit_diagnostics_checked_against_saved_translations": true,
+  "temperature_artifacts_checked": true,
+  "sacrebleu_scores_independently_recomputed": false,
+  "sacrebleu_recalculation_limitation": "SacreBLEU is unavailable in this workspace; recorded scores are not recomputed.",
+  "original_train_val_csv_and_manifest_present": false,
+  "exact_english_source_copies": {
+    "basic": 0,
+    "llama": 5,
+    "gemma": 45
+  },
+  "note": "The archived run_status is mT5-only. Three completed artifacts came from earlier runs; shared test rows and hash were checked."
+}

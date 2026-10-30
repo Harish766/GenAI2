@@ -1,0 +1,17 @@
+{
+  "model": "gemma",
+  "model_id": "google/gemma-3-270m-it",
+  "test_size": 200,
+  "bleu": 6.1029307185045285,
+  "chrf": 27.481627235494233,
+  "training_seconds": null,
+  "inference_seconds_total": 128.80116760999886,
+  "inference_seconds_per_sentence": 0.6440058380499942,
+  "parameters": 268098176,
+  "trainable_parameters": 268098176,
+  "peak_cuda_memory_gb": 1.101528576,
+  "decoding": "greedy, maximum 64 new tokens",
+  "empty_translations": 0,
+  "changed_digit_sequences": 2,
+  "sources_with_digits": 4
+}

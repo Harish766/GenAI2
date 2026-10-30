@@ -1,0 +1,17 @@
+{
+  "model": "basic",
+  "model_id": "BasicTransformer-from-scratch",
+  "test_size": 200,
+  "bleu": 0.6650406189572355,
+  "chrf": 12.833675445280097,
+  "training_seconds": 28.03847889000008,
+  "inference_seconds_total": 23.291068480997637,
+  "inference_seconds_per_sentence": 0.11645534240498819,
+  "parameters": 4698250,
+  "trainable_parameters": 4698250,
+  "peak_cuda_memory_gb": 0.061515776,
+  "decoding": "greedy, maximum 64 new tokens",
+  "empty_translations": 0,
+  "changed_digit_sequences": 4,
+  "sources_with_digits": 4
+}
